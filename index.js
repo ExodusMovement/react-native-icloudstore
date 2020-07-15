@@ -2,9 +2,8 @@
  * @providesModule react-native-icloudstore
  */
 
-import { AsyncStorage, NativeModules, Platform } from 'react-native';
+import { NativeModules, Platform } from 'react-native'
 
-const iCloudStorage = Platform.OS === 'ios' ? NativeModules.RNICloudStorage : AsyncStorage;
+const iCloudStorage = Platform.OS === 'ios' ? NativeModules.RNICloudStorage : {}
 
-export default iCloudStorage;
-
+export default iCloudStorage
