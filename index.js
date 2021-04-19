@@ -4,6 +4,7 @@
 
 import { NativeModules, Platform } from 'react-native'
 
-const iCloudStorage = Platform.OS === 'ios' ? NativeModules.RNICloudStorage : {}
+const iCloudStorage =
+  Platform.OS === 'ios' ? NativeModules.RNICloudStorage : null
 
 export default iCloudStorage
