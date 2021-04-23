@@ -10,7 +10,7 @@
 #import <React/RCTBridge.h>
 #import <React/RCTEventDispatcher.h>
 
-static NSString* const ICLOUDSTORAGE_PREFIX = @"@com.exodusmovement.exodus.iCloudStorage/";
+static NSString* const ICLOUDSTORAGE_PREFIX = @"@com.exodus/";
 static NSString* const ICLOUD_STORE_CHANGED = @"ICLOUD_STORE_CHANGED";
 static NSString* const kStoreChangedEvent = @"iCloudStoreDidChangeRemotely";
 static NSString* const kChangedKeys = @"changedKeys";
